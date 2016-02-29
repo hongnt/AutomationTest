@@ -40,7 +40,7 @@ public class SignIn
 		System.out.println(driver.findElement(By.cssSelector(".name.ng-binding.ng-scope")).getText());
 		if(driver.findElement(By.cssSelector(".name.ng-binding.ng-scope")).getText().equals("Hong Nguyen"))
 		{
-			System.out.println("Sign in successfill");
+			System.out.println("Sign in successfull");
 		}
 		else
 			System.out.println("Sign in fail");
